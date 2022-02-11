@@ -1,0 +1,53 @@
+* {
+    font-family: Alef;
+    margin-left: 50px;
+}
+
+#catimg {
+    height: 500px;
+    width: 500px;
+    margin-top: 50px;
+    right: 50px
+}
+
+#catimg:hover {
+    height: 510px;
+    width: 510px;
+    border: 1px
+    border-color: aqua;
+    border-radius: 3px;
+    border-style: solid;
+    transform: scale(1.2);
+    transition-duration: 2s;
+
+}
+
+#numb {
+    width: 100px;
+}
+
+#numb:hover {
+    width: 110px;
+    border-color: blue;
+    height: 20px;
+    border-radius: 15%;
+    border-width: 5px;
+}
+
+#button {
+    margin-left: 5px;
+    color: blue;
+
+}
+
+#button:hover {
+    border-color: blue;
+    border-radius: 4px;
+    
+}
+
+#title {
+    padding-top: 4px;
+    margin-top: 50px;
+    position: relative;
+}
